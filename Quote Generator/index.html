@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="/Quote Generator/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="quote-box">
+      <h2>Quote of the day</h2>
+      <blockquote id="quote-text">Loading...</blockquote>
+      <span id="quote-author" style="float: right">Loading...</span>
+      <div>
+        <button id="new-quote">New Quote</button>
+        <button onclick="tweet()">
+          <img src="twitter.png" alt="Tweet" />Tweet
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
